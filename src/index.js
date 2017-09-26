@@ -8,7 +8,6 @@ module.exports = function multiply(first, second) {
     var carry, temp;
 
     /* algorithm */
-    var len = size_a + size_b + 1;
     for (var i = 0; i < size_a; i++){
         carry = 0;
 
